@@ -6,7 +6,7 @@ In diesem Versuch soll näher auf die Kommandozeile und die APIs von AWS eingega
 
 ### AWS CloudShell
 
-![AWS CloudShell Logo](aws_cloudshell.svg)
+![AWS CloudShell Logo](../../assets/Versuch5/aws_cloudshell.svg)
 
 AWS CloudShell bietet Zugang zu einer voreingestellte Kommandozeile über den Browser. Die nötigen APIs und Bibliotheken sowie gebräuchliche Entwicklertools (z.B. Python) sind bereits installiert. Somit ist beispielsweise die Installation der AWS-Kommandozeile auf dem lokalen PC nicht nötig.
 
@@ -19,7 +19,7 @@ Bei CloudShell handelt es sich um ein Entwicklungstool. Sollen z.B. Python-Scrip
 
 ### AWS CLI
 
-![AWS CLI Logo](aws_cli.svg)
+![AWS CLI Logo](../../assets/Versuch5/aws_cli.svg)
 
  Der Kommandozeilen-Zugang (engl. Command Line Interface) bietet die Möglichkeit AWS Ressourcen und Konfigurationen mithilfe der Kommandozeile zu steuern. Das Kommandozeilen-Tool kann sowohl auf dem eignen Rechner installiert als auch über AWS CloudShell genutzt werden. Bei der Ausführung in der CloudShell müssen keine Authentifizierungs-Daten angegeben werden, da die CloudShell an sich durch den eigenen Benutzer authentifiziert ist.
 
