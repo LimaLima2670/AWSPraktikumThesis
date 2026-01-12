@@ -18,27 +18,27 @@ Als Laufzeit wird Python gewählt.
 Im Abschnitt „Standard-Ausführungsrolle ändern“ wird die Option
 **„Vorhandene Rolle verwenden“** ausgewählt und die Rolle MVS_Lambda_Role festgelegt.
 
-![Lambda Funktion erstellen](lambda_createFunction.png)
+![Lambda Funktion erstellen](../../assets/Versuch3/lambda_createFunction.png)
 
 **Sind die Infos eingetragen, kann auf "Funktion erstellen" geklickt werden, um die Funktion zu erstellen.**
 
-![Lambda Funktion erstellt](lambda_createFunctionSuccess.png)
+![Lambda Funktion erstellt](../../assets/Versuch3/lambda_createFunctionSuccess.png)
 
 ### Auslöser hinzufügen
 
 Damit die Funktion beim Hinzufügen einer neuen Datei aufgerufen wird, muss ein Auslöser hinzugefügt werden. Dies kann über die Schaltfläche "Auslöser hinzufügen" oder im Reiter "Konfiguration -> Auslöser" geschehen.
 
-![Lambda Funktion Auslöser](lambda_ausloeser.png)
+![Lambda Funktion Auslöser](../../assets/Versuch3/lambda_ausloeser.png)
 
 Als Quelle soll S3 gewählt werden. Im Feld "Bucket" soll der eigene Bucket ausgewählt werden. Im Feld "Prefix" soll der Ingest-Ordner angegeben werden (also `ingest/`) und im Suffix "mp4". So wird die Funktion nur für hinzugefügte MP4-Dateien im Ordner "Ingest" aufgerufen. 
 
 <div style="border:2px solid #ff5555; padding:12px; border-radius:6px; margin:14px 0;"> <b>Wichtig:</b><br> Eingabe- (<code>ingest/</code>) und Ausgabeordner (<code>export/</code>) müssen strikt getrennt sein. Andernfalls kann es zu rekursiven Funktionsaufrufen und unnötigen Kosten kommen. </div>
 
-![Lambda Funktion Auslöser Bucket](lambda_ausloeser_bucket.png)
+![Lambda Funktion Auslöser Bucket](../../assets/Versuch3/lambda_ausloeser_bucket.png)
 
 Ist der Auslöser erstellt, wird er oben in der Übersicht angezeigt.
 
-![Lambda Funktion Auslöser Bucket](lambda_ausloeser_bucket_success.png)
+![Lambda Funktion Auslöser Bucket](../../assets/Versuch3/lambda_ausloeser_bucket_success.png)
 
 
 
@@ -120,7 +120,7 @@ In Zeile 10 muss außerdem die Warteschlange eingetragen werden. Dabei kann einf
 
 Ist der Code hinzugefügt und modifiziert, kann die Lambdafunktion mithilfe des Buttons "Deploy" aktualisiert werden.
 
-![Lambda Funktion Code](lambda_code.png)
+![Lambda Funktion Code](../../assets/Versuch3/lambda_code.png)
 
 ### Weitere Einstellungen
 
@@ -128,7 +128,7 @@ Damit die Funktion reibungslos ablaufen kann, muss noch eine weitere Option geä
 
 Im Reiter `Konfiguration -> Allgemeine Konfiguration` kann das Timeout geändert werden. Dazu klickt man auf "Bearbeiten" und wählt ein Timeout von 10 Sekunden. Dies sollte ausreichend sein, um die Funktion auszuführen (Die durchschnittliche Ausführungszeit liegt bei ca. 2,5 Sekunden).
 
-![Lambda Funktion Timeout](lambda_timeout.png)
+![Lambda Funktion Timeout](../../assets/Versuch3/lambda_timeout.png)
 
 ## Weiterverarbeitung der Transcoding-Ergebnisse
 
