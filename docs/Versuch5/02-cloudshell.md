@@ -2,7 +2,7 @@
 
 Die AWS CloudShell kann auf der Web-Konsole durch die Suchfunktion gefunden werden oder direkt mit dem Kommandozeilen-Symbol oben rechts gestartet werden.
 
-![CloudShell](cloudshell_button.png)
+![CloudShell](../../assets/Versuch5/cloudshell_button.png)
 
 ## Kommando-Aufbau[^1]
 
@@ -33,7 +33,7 @@ aws s3 ls
 </div>
 
 
-![CloudShell](terminal.png)
+![CloudShell](../../assets/Versuch5/terminal.png)
 
 Dabei ruft `aws` die AWS CLI auf, `s3` legt den Service, in diesem Fall AWS S3, fest und `ls` ist der auszuführende Befehl. Wie auch in Linux-Systemen steht `ls` für "list" und listet alle enthaltenen Elemente, in diesem Fall S3-Buckets auf.
 
