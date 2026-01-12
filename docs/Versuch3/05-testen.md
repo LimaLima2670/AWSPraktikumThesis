@@ -30,7 +30,7 @@ erstellt werden. Dazu wird in MediaConvert der Punkt „Aufgabenvorlagen“
 gewählt. Über „Vorlage erstellen“ kann eine neue Vorlage angelegt werden.
 
 
-![MediaConvert Vorlagen](mediaconvert_templates.png)
+![MediaConvert Vorlagen](../../assets/Versuch3/mediaconvert_templates.png)
 
 Zuerst muss der Name der Vorlage gewählt werden.
 Hierbei soll wieder der eigene HDS-Nutzername als Präfix verwendet werden,
@@ -42,7 +42,7 @@ musterstudent_template2
 
 Die Felder „Kategorie“ und „Beschreibung“ können leer gelassen werden.
 
-![MediaConvert Vorlage Name](mediaconvert_template_name.png)
+![MediaConvert Vorlage Name](../../assets/Versuch3/mediaconvert_template_name.png)
 
 Nun können unter „Eingaben“ und „Ausgabegruppen“ wie gewohnt
 die gewünschten Transcodierungseinstellungen festgelegt werden.
@@ -60,7 +60,7 @@ Dokumentieren Sie Ihre Wahl im Bericht.
 
 </div> <div style="border: 2px solid #ffffff; padding: 14px; border-radius: 6px; margin: 14px 0;"> <b>Hinweis</b><br><br> Das CDN ist auf die Wiedergabe von HLS-Streams konfiguriert. Daher sollte auch bei eigenen Vorlagen HLS als Ausgabeformat gewählt werden. </div>
 
-![MediaConvert Vorlage Einstellungen](mediaconvert_template_settings.png)
+![MediaConvert Vorlage Einstellungen](../../assets/Versuch3/mediaconvert_template_settings.png)
 
 Sind alle Parameter festgelegt, kann die Vorlage über den Button
 „Erstellen“ angelegt werden.
@@ -69,7 +69,7 @@ JSON-Datei heruntergeladen werden.
 
 
 
-![MediaConvert Vorlage Export](mediaconvert_template_export.png)
+![MediaConvert Vorlage Export](../../assets/Versuch3/mediaconvert_template_export.png)
 
 Damit die neu erstellte Vorlage vom automatisierten Workflow verwendet werden
 kann, muss die JSON-Datei in den Ordner templates/ des eigenen
