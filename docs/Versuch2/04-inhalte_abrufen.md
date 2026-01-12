@@ -20,7 +20,7 @@ Zum Testen der HLS-Wiedergabe wird die Demo-Instanz von hls.js verwendet.
 https://hlsjs.video-dev.org/demo/
 
 
-![HLS](hlsplayer.jpg)
+![HLS](../../assets/Versuch2/hlsplayer.jpg)
 
 
 
@@ -45,7 +45,7 @@ https://chromewebstore.google.com/detail/allow-cors-access-control/lhobafahddgce
 
 **Wenn dies erfolgt ist kann nun das Plugin aktiviert werden, hierfür muss auf das Puzzlestück in Chrome gedrückt werden und auf das Corsplugin navigiert werden**
 
-![CORS](cors.jpg)
+![CORS](../../assets/Versuch2/cors.jpg)
 
 **Nun auf Toggle ON OFF drücken. Das PlugIn ist somit aktiviert**
 
@@ -87,7 +87,7 @@ https://lelugoue.global.ssl.fastly.net/versuch2-hls-test/dolby_countdown.m3u8
  **Das Video sollte daraufhin automatisch angangen abzuspielen:**
 
 
- ![HLS-WORKS](hlsworking.jpg)
+ ![HLS-WORKS](../../assets/Versuch2/hlsworking.jpg)
 
 
 ### DNS-Auflösung (Fastly)
