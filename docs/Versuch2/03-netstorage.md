@@ -16,7 +16,8 @@ Für diesen Versuch wird der Zugriff über die AWS Management Console genutzt, d
 
 Zur Übersicht der Buckets wechseln Sie in der AWS-Konsole zum Diens
 
-![Buckets](buckets.jpg)
+![Buckets](../../assets/Versuch2/buckets.jpg)
+
 
 
 ## S3-Bucket-Übersicht
@@ -44,8 +45,7 @@ Diese Dateien bilden gemeinsam den vollständigen Streaming-Clip und dienen als 
 Navigieren Sie hierzu in der S3-Übersicht in den Bucket a--sourcefiles und öffnen Sie anschließend den Ordner ftp_source/.
 Sie sollten dort eine Dateiansicht wie in der folgenden Abbildung sehen.
 
-![Buckets](dolbyts.jpg)
-
+![Buckets](../../assets/Versuch2/dolbyts.jpg)
 
 ## Kontrolle der Inhalte
 
@@ -73,7 +73,7 @@ Vorgehen
 
 2. Klicken Sie oben rechts auf „Ordner erstellen“.
 
-![folder](createfolder.jpg)
+![folder](../../assets/Versuch2/createfolder.jpg)
 
 3. Vergeben Sie folgenden Ordnernamen 
 
@@ -84,7 +84,14 @@ versuch2-hls-test
 
 Dieser Ordner dient ausschließlich als Origin-Verzeichnis für Versuch 2.
 
-![HLS](hlstest.jpg)
+
+![HLS](../../assets/Versuch2/hlstest.jpg)
+
+
+
+
+
+
 
 
 ## Kopieren der HLS-Testdaten in den eigenen Bucket
