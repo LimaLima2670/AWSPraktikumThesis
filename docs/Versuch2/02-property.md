@@ -15,19 +15,17 @@ Auf der Übersichtsseite werden alle vorhandenen Services angezeigt.
 Zum Erstellen eines neuen Services wird rechts oben auf **Create service**
 geklickt.
 
-![S3 Dashboard](services.jpg)
-
+![Fastly Services Übersicht](../../assets/Versuch2/services.jpg)
 
 ### Name
 
 Im ersten Schritt wird der Name des Services festgelegt.  
-Als Name soll der **HDS-Anmeldename aöso der Name mit dem Sie sich bei StudIP auch anmelden** verwendet werden (z. B. `lelugoue`).
+Als Name soll der **HDS-Anmeldename also der Name mit dem Sie sich bei StudIP auch anmelden** verwendet werden (z. B. `lelugoue`).
 
 Der Name dient ausschließlich der internen Zuordnung und hat keinen Einfluss
 auf die später verwendete Domain.
 
-
-![S3 Dashboard](lelugoue.jpg)
+![Fastly Service Name](../../assets/Versuch2/lelugoue.jpg)
 
 ### Domain
 
@@ -40,14 +38,11 @@ Diese Domain wird automatisch von Fastly bereitgestellt und besitzt die Form:
 <service-name>.global.ssl.fastly.net
 
 
-**Diesen Namen erhalten SIe aus der bereitgestellten Mail.**
-
+**Diesen Namen erhalten Sie aus der bereitgestellten Mail.**
 
 Diese Domain wird später zur Auslieferung der Mediendateien genutzt.
 
-
-![S3 Dashboard](domain.jpg)
-
+![Fastly Service Domain](../../assets/Versuch2/domain.jpg)
 
 ### Origin
 
@@ -57,10 +52,9 @@ noch nicht im Cache vorhanden sind.
 
 In diesem Versuch wird ein **AWS-S3-Bucket** als Origin verwendet.
 
-``` bash
+```bash
 mvs-<StudIpUser>.s3.eu-central-1.amazonaws.com
 ```
-
 
 ### Aktivierung
 
@@ -78,15 +72,9 @@ Er dient als technischer Endpunkt, über den Anfragen an die Edge-Server von Fas
 In der Praxis verweist ein DNS-Eintrag einer eigenen Domain oder Subdomain auf diesen Edge Hostnamen.
 Da für diesen Versuch keine eigene Domain zur Verfügung steht, erfolgt der Zugriff direkt über den von Fastly bereitgestellten Edge Hostnamen.
 
-
-![S3 Dashboard](flowchart.jpg)
-
-
-
-
 ### Settings / Konfigurationslogik
 
-Die Service-Konfiguration legt fest, wie Fastly auf eingehende Anfragen reagiert.
+ie Service-Konfiguration legt fest, wie Fastly auf eingehende Anfragen reagiert.
 Vergleichbar mit den Property Rules bei Akamai wird die Anfrage anhand definierter Regeln verarbeitet.
 
 Für diesen Versuch wird ausschließlich die automatisch angelegte Default Configuration verwendet und gezielt angepasst.
