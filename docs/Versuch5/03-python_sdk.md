@@ -32,7 +32,7 @@ Im ersten Schritt soll die Lambda-Funktion automatisch die optimale Warteschlang
 
 Mithilfe der Funktion `list_queues` können die Eigenschaften der Warteschlangen abgefragt werden. In der [Dokumentation](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/mediaconvert/client/list_queues.html) ist nachzulesen, dass in der Antwort die Eigenschaften `ProgressingJobsCount` und `SubmittedJobsCount` sowie die Eigenschaft `Arn` übermittelt werden. Die ARN ist eine eindeutige Zeichenkette, die als Verweis zur Warteschlange dient und der Funktion `create_job` übergeben wird.
 
-![Dokumentation](documentation.png)
+![Dokumentation](../../assets/Versuch5/documentation.png)
 
 ### Zusätzlichen Code einfügen
 
@@ -161,7 +161,7 @@ Der Name des Buckets sowie der Key der Datei muss individuell abgeändert werden
 </div>
 
 
-![Dokumentation](test_event.png)
+![Dokumentation](../../assets/Versuch5/test_event.png)
 
 Ist das Testereignis erstellt, kann es über den Test-Button ausgelöst werden.
 
