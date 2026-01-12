@@ -39,7 +39,7 @@ direkt über das CDN ausgeliefert werden können.
 Damit ein Mediaplayer auf die im CDN gespeicherten Medien zugreifen kann, stellt
 Fastly für jeden Service eine sogenannte **Service Domain** zur Verfügung.  
 
-![S3 Dashboard](fastly.jpg)
+![Fastly CDN Prinzip](../../assets/Versuch2/fastly.jpg)
 
 Im oberen Teil der Abbildung ist ein Legacy-CDN dargestellt. Änderungen an den Inhalten erfolgen am Origin-Server, werden jedoch nur zeitbasiert (z. B. über feste Cache-Invalidierungsintervalle) an die CDN-Knoten weitergegeben. Dadurch kann es zu Verzögerungen kommen, bis aktualisierte Inhalte bei den Endnutzern verfügbar sind.
 
