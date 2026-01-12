@@ -14,7 +14,7 @@ https://<FASTLY-EDGE-HOSTNAME>/export/<clipname>/<master-playlist>.m3u8
 https://lelugoue.global.ssl.fastly.net/export/clip1/master.m3u8
 ```
 
-![lelugoueservice](lelugoueservice.jpg)
+![lelugoueservice](../../assets/Versuch4/lelugoueservice.jpg)
 
 
 
@@ -55,11 +55,11 @@ folgenden Ordner für den öffentlichen Lesezugriff freigegeben sind:
 
 **Navigieren SIe dafür zu folgendem Reiter in ihrem dafür vorgesehenen Bucket**
 
-![berechtigung](berechtigung.jpg)
+![berechtigung](../../assets/Versuch4/berechtigung.jpg)
 
 **Dort müssen noch weitere Bucketrichtlinien angepasst werden. Navigieren sie hierfür etwas weiter runter bis Sie folgendes Feld sehen**
 
-![Bucket](Bucketrichtlinien.jpg)
+![Bucket](../../assets/Versuch4/Bucketrichtlinien.jpg)
 
 
 **Dort muss folgende Anpassung noch entstehen:**
@@ -90,7 +90,7 @@ https://<FASTLY-EDGE-HOSTNAME>/export/<CLIPNAME>/<CLIPNAME>.m3u8
 
 **Sie sollten folgendes nun auf ihrem Bildschirm sehen:**
 
-![SuccesfulCountdown](countdownsuc.jpg)
+![SuccesfulCountdown](../../assets/Versuch4/countdownsuc.jpg)
 
 
 **Hinweis zu CORS (zwingend erforderlich)**
