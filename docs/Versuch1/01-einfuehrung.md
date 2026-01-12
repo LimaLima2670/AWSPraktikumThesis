@@ -6,7 +6,7 @@ Zuerst werden für diesen Versuch die Grundbegriffe geklärt und das Konzept erl
 
 ### Cloud-Speicher (*AWS S3*)
 
-![AWS S3 Logo](assets/Versuch1/aws_s3.svg)
+![AWS S3 Logo](../../assets/Versuch1/aws_s3.svg)
 
 Cloud-Speicher-Lösungen bieten ähnlich wie die Konsumerprodukte Dropbox, Google Drive etc. Speicherplatz an. Im Industriellen Umfeld wird oft Objektspeicher verwendet, welcher Informationen als Objekte ablegt und nicht wie Dateisysteme in hierarchische Ordnerstrukturen. Jedes Objekt besitz einen global einzigartigen Identifikator und wird in einem Bucket (deutsch: Eimer) gespeichert. 
 
