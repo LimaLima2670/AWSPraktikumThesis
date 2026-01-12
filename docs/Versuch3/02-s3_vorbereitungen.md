@@ -21,15 +21,15 @@ Es werden folgende Ordner angelegt:
 
 **Um den Unterordner zu erstellen, muss auf der AWS Weboberfläche der entsprechende Bucket geöffnet werden und über den Button "Ordner erstellen" erstellt werden.**
 
-![S3 Bucket](unterordner.png)
+![S3 Bucket](../../assets/Versuch3/unterordner.png)
 
 **Außer dem Ordnername müssen keine weiteren Einstellungen bei der Erstellung festgelegt werden.**
 
-![S3 Bucket](ordner.png)
+![S3 Bucket](../../assets/Versuch3/ordner.png)
 
 **Wiederholen Sie den Vorgang, bis alle drei Ordner erstellt sind.**
 
-![S3 Bucket](exportetc.png)
+![S3 Bucket](../../assets/Versuch3/exportetc.png)
 
 ## Transcodiervorlage hinzufügen
 
