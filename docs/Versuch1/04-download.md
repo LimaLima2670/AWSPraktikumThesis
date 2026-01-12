@@ -25,4 +25,4 @@ Schon die Übersicht zeigt die Videodatenrate und die Audiodatenrate. Ebenso wer
     | Audio-Codec          |          |         |         |
     | Audio-Bitrate        |          |         |         |
 
-![MediaInfo](../assets/versuch1/metadaten_mediainfo.png)
+![MediaInfo](../../assets/Versuch1/metadaten_mediainfo.png)
