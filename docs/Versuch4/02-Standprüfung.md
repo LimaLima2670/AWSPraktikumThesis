@@ -41,5 +41,5 @@ export/<clipname>/
 - zugehörige Segment-Dateien (*.ts)
 
 
-![exportfolder](dolbycount.jpg)
+![exportfolder](../../assets/Versuch4/dolbycount.jpg)
 
