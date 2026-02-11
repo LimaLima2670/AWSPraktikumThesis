@@ -44,6 +44,57 @@ Diese Domain wird später zur Auslieferung der Mediendateien genutzt.
 
 ![Fastly Service Domain](../../assets/Versuch2/domain.jpg)
 
+
+### Segmentiertes Caching aktivieren
+
+### VLC Anpassungen
+
+Bei der Auslieferung großer Videodateien aus dem STACKIT Object Storage über Fastly stößt die Standardkonfiguration schnell an Grenzen. Für neue Fastly-Accounts dürfen Objekte ohne Zusatzfunktionen nur bis zu einer Größe von 20 MB im Cache gespeichert werden. Das verwendete Testvideo (testvideo.mp4) ist deutlich größer, weshalb ein normaler Cache-Zugriff zu einer Fehlermeldung („Response object too large“) führt.
+
+Um solche Dateien trotzdem performant über das CDN ausliefern zu können, bietet Fastly Segmented Caching an. Dabei wird das Video nicht als einzelne große Datei im Cache abgelegt, sondern in kleinere Abschnitte zerlegt. Diese Segmente lassen sich unabhängig voneinander zwischenspeichern und bei Bedarf wieder zusammensetzen. Das passt gut zu typischen Videoabrufen, da moderne Mediaplayer Inhalte ohnehin in Form von Byte-Range-Anfragen anfordern.
+
+Segmented Caching ist standardmäßig nicht aktiv und muss gezielt konfiguriert werden.
+
+Navigieren Sie unter **LOGGING** zu dem Reiter Snippets
+
+
+![ObjectSTorage](../../assets/Versuch2/VLCSNIPPET.jpg)
+
+Übergeben Sie auf der Einrichtungsmaske folgende Parameter:
+
+**Name:** enable-segmented-caching.mp4
+**Placement:** Within subroutine
+**Subroutine:** recv(vcl_recv)
+**Priority:** 100
+```bash
+if (req.url.ext == ".ts") {
+  set req.enable_segmented_caching = true;
+}
+```
+
+![ObjectSTorage](../../assets/Versuch2/Settingsvlc.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Origin
 
 Als Nächstes muss der **Origin-Server** konfiguriert werden.  
