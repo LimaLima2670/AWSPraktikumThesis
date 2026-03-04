@@ -44,5 +44,13 @@ Die in Lambda erstellten Funktionen können anhand eines Auslösers ausgeführt 
 
 Die Zustellung von einem Service zu Nutzern geschieht wahlweise über SMS- oder Push-Nachrichten, sowie via E-Mail. SNS ist nicht für z.B. Newsletter gedacht, sondern für interne Kommunikation.
 
+---
+
+⬅️ **Vorheriges Kapitel:**  
+[Zurück zur Übersicht](index.md)
+
+➡️ **Nächstes Kapitel:**  
+[S3 Vorbereitungen](02-s3_vorbereitungen.md)
+
 !!! info "Kosten"
     Wie auch bei Labda fallen erst Kosten ab 1 Millionen Anfragen an. Diese können in einem industriellen Umfeld anfallen, werden aber in diesem Versuch nicht ansatzweise erreicht.
