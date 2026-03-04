@@ -1,3 +1,13 @@
+---
+layout: default
+title: Netstorage
+---
+
+
+
+
+
+
 # Origin (AWS S3)
 
 Wie in den Service-Einstellungen bereits festgelegt, sollen die Quelldaten der Mediendateien von einem AWS S3 Origin abgerufen werden.
