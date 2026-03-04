@@ -53,3 +53,12 @@ Gehen Sie dabei insbesondere auf die Rolle des
 <b>URL-Pfads</b> bei der CDN-Auslieferung ein.
 
 </div>
+
+
+---
+
+⬅️ **Vorheriges Kapitel:**  
+[Export über CDN](03-exportCDN.md)
+
+➡️ **Nächster Versuch:**  
+[Versuch 5](../Versuch5/)
