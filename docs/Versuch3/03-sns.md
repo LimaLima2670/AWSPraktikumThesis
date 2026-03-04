@@ -29,7 +29,7 @@ Ist das Thema erstellt, kann unten auf "Abonnement erstellen" ein Benachrichtigu
 
 Ist das Abonnement erstellt, wird eine Bestätigungsmail an die angegebene Adresse versendet. Über den Bestätigungslink muss das Abonnement bestätigt werden.
 
-![SNS Themen](../assets/Versuch3/sns5.png)
+![SNS Themen](../assets/sns5.png)
 
 ---
 
