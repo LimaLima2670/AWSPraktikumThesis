@@ -1,3 +1,10 @@
+---
+layout: default
+title: AWS MediaConvert
+---
+
+
+
 # AWS MediaConvert
 
 Um das Sample-Video zu transcodieren, wird AWS Elemental MediaConvert verwendet. Dieser Service ist unter `Services -> Media Services -> MediaConvert` zu finden. Mit dem Klick auf *"Erste Schritte"* kann ein Transcoder-Auftrag erstellt werden. 
