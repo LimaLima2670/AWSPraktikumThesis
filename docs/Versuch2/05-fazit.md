@@ -19,3 +19,11 @@ Anschließend konnten die Medieninhalte erfolgreich über den Fastly-Edge-Hostna
 ## Abgabe
 
 In der Abgabe müssen bei Versuch 2 **keine** eigenen Dateien abgegeben werden. Die Bewertung erfolgt allein anhand des Versuchsberichtes und der darin enthaltenen Screenshots.
+
+---
+
+⬅️ **Vorheriges Kapitel:**  
+[Inhalte abrufen](04-inhalte_abrufen.md)
+
+➡️ **Nächster Versuch:**  
+[Versuch 3](../Versuch3/)
