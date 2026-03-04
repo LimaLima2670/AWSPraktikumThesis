@@ -143,5 +143,11 @@ Darunter erscheinen die IP-Adressen, auf die der Fastly-Hostname aufgelöst wird
   die <b>Stadt</b> an, in der der Befehl ausgeführt wurde.
 </div>
 
+---
 
+⬅️ **Vorheriges Kapitel:**  
+[NetStorage](03-netstorage.md)
+
+➡️ **Nächstes Kapitel:**  
+[Fazit](05-fazit.md)
 
