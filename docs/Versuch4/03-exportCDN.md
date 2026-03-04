@@ -1,3 +1,11 @@
+---
+layout: default
+title: Export-CDN
+---
+
+
+
+
 # Abruf der HLS-Streams über CDN 
 
 Die Auslieferung erfolgt über den bereits vorhandenen Fastly Edge Hostnamen.
