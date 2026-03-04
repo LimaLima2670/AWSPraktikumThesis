@@ -1,3 +1,11 @@
+---
+layout: default
+title: Einführung
+---
+
+
+
+
 # Einführung
 
 In diesem dritten Versuch wird der Transcoding- und CDN-Workflow vollständig automatisiert umgesetzt.
