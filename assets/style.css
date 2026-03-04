@@ -1,0 +1,168 @@
+/* ===== Base ===== */
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #0b1220;
+  color: #e6eaf0;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ===== Layout ===== */
+
+.wrapper {
+  display: flex;
+}
+
+/* ===== Sidebar ===== */
+
+.sidebar {
+  width: 250px;
+  padding: 48px 28px;
+  background-color: #111827;
+  min-height: 100vh;
+  border-right: 1px solid rgba(255,255,255,0.05);
+}
+
+.sidebar h2 {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 28px;
+  color: #879196;
+  font-weight: 600;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  padding: 10px 0;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #9ca3af;
+  font-size: 15px;
+  font-weight: 500;
+  display: block;
+  transition: all 0.2s ease;
+}
+
+/* Hover */
+
+.sidebar a:hover {
+  color: #ff9900;
+  transform: translateX(4px);
+}
+
+/* Active Page */
+
+.sidebar a.active {
+  color: #ffffff;
+  font-weight: 600;
+  border-left: 3px solid #ff9900;
+  padding-left: 8px;
+}
+
+/* ===== Content ===== */
+
+.content {
+  flex: 1;
+  padding: 90px 110px;
+  max-width: 1100px;
+}
+
+.page-container {
+  max-width: 900px;
+}
+
+/* ===== Page Title ===== */
+
+.page-title {
+  font-size: 44px;
+  font-weight: 600;
+  margin-bottom: 50px;
+  color: #ff9900;
+  letter-spacing: -0.5px;
+}
+
+/* ===== Typography ===== */
+
+h2 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 70px;
+  margin-bottom: 18px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid rgba(255,255,255,0.07);
+  margin: 50px 0;
+}
+
+/* ===== Content Links ===== */
+
+.content a {
+  color: #ff9900;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.content a:hover {
+  color: #ffb84d;
+}
+
+/* ===== Images ===== */
+
+.content img {
+  max-width: 100%;
+  border-radius: 6px;
+  margin: 25px 0;
+}
+
+/* ===== Bottom Navigation ===== */
+
+.doc-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  padding-top: 35px;
+  border-top: 1px solid rgba(255,255,255,0.06);
+}
+
+.nav-arrow {
+  color: #ff9900;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.nav-arrow:hover {
+  color: #ffb84d;
+  transform: translateY(-2px);
+}
+
+.nav-arrow.prev {
+  text-align: left;
+}
+
+.nav-arrow.next {
+  text-align: right;
+}
