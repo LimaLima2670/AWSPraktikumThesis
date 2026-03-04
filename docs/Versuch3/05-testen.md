@@ -88,3 +88,12 @@ JSON-Datei angepasst werden.
 
 Neu in den Ingest-Ordner hochgeladene Mediendateien werden danach automatisch
 mithilfe der neuen Vorlage transcodiert.
+
+
+---
+
+⬅️ **Vorheriges Kapitel:**  
+[Lambda](04-lambda.md)
+
+➡️ **Nächstes Kapitel:**  
+[Fazit](06-fazit.md)
