@@ -181,3 +181,10 @@ Die konkrete Einrichtung des Fastly-CDNs (Service, Origin, Hostname) erfolgt in 
   Rolle von <b>AWS S3 als Origin</b> ein.
 </div>
 
+---
+
+⬅️ **Vorheriges Kapitel:**  
+[SNS](03-sns.md)
+
+➡️ **Nächstes Kapitel:**  
+[Testen](05-testen.md)
