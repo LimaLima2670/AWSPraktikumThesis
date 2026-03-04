@@ -60,3 +60,11 @@ Oben rechts kann die Region, also der Standort des verwendeten Rechenzentrums, v
     Eine Region beschreibt kein einzelnes Rechenzentrum. Recherchieren und erläutern Sie die Begriffe "Region" und "Availability Zone". Wie sind Regionen und Availability Zones miteinander verbunden?
 
 ![AWS Region Setting](../assets/Versuch1/aws_region.png)
+
+---
+
+⬅️ **Vorheriges Kapitel:**  
+[Zurück zur Übersicht](index.md)
+
+➡️ **Nächstes Kapitel:**  
+[Amazon S3](02-S3.md)
