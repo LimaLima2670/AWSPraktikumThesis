@@ -1,3 +1,10 @@
+
+---
+layout: default
+title: Troubleshooting
+---
+
+
 # Troubleshooting
 
 ## Elemental MediaConvert darf nicht auf den S3 Bucket zugreifen (Access denied)
