@@ -1,3 +1,10 @@
+---
+layout: default
+title: Cloudshell
+---
+
+
+
 # AWS CloudShell
 
 Die AWS CloudShell kann auf der Web-Konsole durch die Suchfunktion gefunden werden oder direkt mit dem Kommandozeilen-Symbol oben rechts gestartet werden.
