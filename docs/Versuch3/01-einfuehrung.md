@@ -13,25 +13,13 @@ Sobald eine neue Videodatei in einem definierten AWS-S3-Bucket abgelegt wird, st
 
 - und anschließend über ein Fastly CDN weltweit bereitgestellt.
 
- ![V3Flow](../../assets/Versuch3/Versuch3Schaltbild.jpg)
-
-
-
-
-
-
-
-
-
-
-
-
+ ![V3Flow](../assets/Versuch3Schaltbild.jpg)
 
 ## Grundbegriffe
 
 ### AWS Lambda
 
-![AWS Labda Logo](../../assets/Versuch3/aws_lambda.svg) 
+![AWS Labda Logo](../assets/aws_lambda.svg) 
 
 AWS Lambda ist eine Plattform, auf der anhand eines Auslösers Funktionen in verschiedenen Programmiersprachen ausgeführt werden können. Dafür ist kein Servermanagement nötig und nur die Zeit der Berechnung wird in Rechnung gestellt.
 
@@ -42,7 +30,7 @@ Die in Lambda erstellten Funktionen können anhand eines Auslösers ausgeführt 
 
 ### AWS SNS
 
-![AWS SNS Logo](../../assets/Versuch3/aws_sns.svg)
+![AWS SNS Logo](../assets/aws_sns.svg)
 
 Über den AWS Simple Notification Service, kurz *SNS*, können Nachrichten von Applikation zu Applikation oder von Applikation zu Nutzer verteilt werden. SNS funktioniert über ein Pub/Sub-System, bei dem Nachrichten von einem Ersteller in einem Themen-Kanal veröffentlicht werden können (*Publish*) und Empfänger die Nachrichten empfangen, solange sie den entsprechenden Themen-Kanal abonniert haben (*Subscribe*).
 
