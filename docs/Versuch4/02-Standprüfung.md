@@ -1,3 +1,10 @@
+---
+layout: default
+title: Standprüfung
+---
+
+
+
 # Versuch 4 – Überprüfung der Ausgangsbasis
 
 ## Ordnerstrukturüberprüfung
