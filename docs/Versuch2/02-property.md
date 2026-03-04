@@ -15,7 +15,7 @@ Auf der Übersichtsseite werden alle vorhandenen Services angezeigt.
 Zum Erstellen eines neuen Services wird rechts oben auf **Create service**
 geklickt.
 
-![Fastly Services Übersicht](../../assets/Versuch2/services.jpg)
+![Fastly Services Übersicht](../assets/services.jpg)
 
 ### Name
 
@@ -25,7 +25,7 @@ Als Name soll der **HDS-Anmeldename also der Name mit dem Sie sich bei StudIP au
 Der Name dient ausschließlich der internen Zuordnung und hat keinen Einfluss
 auf die später verwendete Domain.
 
-![Fastly Service Name](../../assets/Versuch2/lelugoue.jpg)
+![Fastly Service Name](../assets/lelugoue.jpg)
 
 ### Domain
 
@@ -42,7 +42,7 @@ Diese Domain wird automatisch von Fastly bereitgestellt und besitzt die Form:
 
 Diese Domain wird später zur Auslieferung der Mediendateien genutzt.
 
-![Fastly Service Domain](../../assets/Versuch2/domain.jpg)
+![Fastly Service Domain](../assets/domain.jpg)
 
 
 ### Segmentiertes Caching aktivieren
@@ -58,7 +58,7 @@ Segmented Caching ist standardmäßig nicht aktiv und muss gezielt konfiguriert 
 Navigieren Sie unter **LOGGING** zu dem Reiter Snippets
 
 
-![ObjectSTorage](../../assets/Versuch2/VLCSNIPPET.jpg)
+![ObjectSTorage](../assets/VLCSNIPPET.jpg)
 
 Übergeben Sie auf der Einrichtungsmaske folgende Parameter:
 
@@ -72,26 +72,7 @@ if (req.url.ext == ".ts") {
 }
 ```
 
-![ObjectSTorage](../../assets/Versuch2/Settingsvlc.jpg)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![ObjectSTorage](../assets/Settingsvlc.jpg)
 
 
 
