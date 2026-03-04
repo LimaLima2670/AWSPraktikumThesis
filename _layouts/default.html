@@ -23,27 +23,39 @@
 <ul>
 
 <li>
-<a href="{{ '/' | relative_url }}">Überblick</a>
+<a href="{{ '/' | relative_url }}" class="{% if page.url == '/' %}active{% endif %}">
+Überblick
+</a>
 </li>
 
 <li>
-<a href="{{ '/docs/Versuch1/' | relative_url }}">Versuch 1</a>
+<a href="{{ '/docs/Versuch1/' | relative_url }}" class="{% if page.url contains 'Versuch1' %}active{% endif %}">
+Versuch 1
+</a>
 </li>
 
 <li>
-<a href="{{ '/docs/Versuch2/' | relative_url }}">Versuch 2</a>
+<a href="{{ '/docs/Versuch2/' | relative_url }}" class="{% if page.url contains 'Versuch2' %}active{% endif %}">
+Versuch 2
+</a>
 </li>
 
 <li>
-<a href="{{ '/docs/Versuch3/' | relative_url }}">Versuch 3</a>
+<a href="{{ '/docs/Versuch3/' | relative_url }}" class="{% if page.url contains 'Versuch3' %}active{% endif %}">
+Versuch 3
+</a>
 </li>
 
 <li>
-<a href="{{ '/docs/Versuch4/' | relative_url }}">Versuch 4</a>
+<a href="{{ '/docs/Versuch4/' | relative_url }}" class="{% if page.url contains 'Versuch4' %}active{% endif %}">
+Versuch 4
+</a>
 </li>
 
 <li>
-<a href="{{ '/docs/Versuch5/' | relative_url }}">Versuch 5</a>
+<a href="{{ '/docs/Versuch5/' | relative_url }}" class="{% if page.url contains 'Versuch5' %}active{% endif %}">
+Versuch 5
+</a>
 </li>
 
 </ul>
