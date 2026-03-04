@@ -1,3 +1,10 @@
+
+---
+layout: default
+title: Grundbegriffe
+---
+
+
 ## Grundbegriffe
 
 Als CDN-Anbieter wird **Fastly** genutzt. Fastly ist ein international eingesetzter
