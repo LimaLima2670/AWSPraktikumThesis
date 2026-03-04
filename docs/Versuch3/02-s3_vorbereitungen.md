@@ -1,6 +1,6 @@
 ---
 layout: default
-title: S§-Vorbereitung
+title: S3-Vorbereitung
 ---
 
 
