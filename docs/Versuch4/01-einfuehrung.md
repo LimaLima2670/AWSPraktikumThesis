@@ -29,3 +29,10 @@ export/<clipname>/
 - Die grundlegende Funktionsweise des CDNs sowie die Wiedergabe im HLS-Player sind bekannt.
 
 **In diesem Versuch werden keine neuen CDN-Konfigurationen erstellt, sondern ausschließlich der Origin-Pfad angepasst und getestet.**
+---
+
+⬅️ **Vorheriges Kapitel:**  
+[Zurück zur Übersicht](index.md)
+
+➡️ **Nächstes Kapitel:**  
+[Standprüfung](02-Standprüfung.md)
