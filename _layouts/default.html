@@ -1,126 +1,96 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }}</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>{{ page.title }}</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+
 </head>
+
 
 <body>
 
 <div class="wrapper">
 
-  <!-- ===== Sidebar ===== -->
-  <aside class="sidebar">
-    <h2>Navigation</h2>
+<!-- ===== Sidebar ===== -->
 
-    <ul>
-      <li>
-        <a href="{{ '/' | relative_url }}"
-           class="{% if page.url == '/' %}active{% endif %}">
-          Überblick
-        </a>
-      </li>
+<aside class="sidebar">
 
-      <li>
-        <a href="{{ '/docs/Versuch1/' | relative_url }}"
-           class="{% if page.url contains 'Versuch1' %}active{% endif %}">
-          Versuch 1
-        </a>
-      </li>
+<h2>Navigation</h2>
 
-      <li>
-        <a href="{{ '/docs/Versuch2/' | relative_url }}"
-           class="{% if page.url contains 'Versuch2' %}active{% endif %}">
-          Versuch 2
-        </a>
-      </li>
+<ul>
 
-      <li>
-        <a href="{{ '/docs/Versuch3/' | relative_url }}"
-           class="{% if page.url contains 'Versuch3' %}active{% endif %}">
-          Versuch 3
-        </a>
-      </li>
+<li>
+<a href="{{ '/docs/index.html' | relative_url }}"
+class="{% if page.url == '/docs/' %}active{% endif %}">
+Überblick
+</a>
+</li>
 
-      <li>
-        <a href="{{ '/docs/Versuch4/' | relative_url }}"
-           class="{% if page.url contains 'Versuch4' %}active{% endif %}">
-          Versuch 4
-        </a>
-      </li>
+<li>
+<a href="{{ '/docs/Versuch1/index.html' | relative_url }}"
+class="{% if page.url contains 'Versuch1' %}active{% endif %}">
+Versuch 1
+</a>
+</li>
 
-      <li>
-        <a href="{{ '/docs/Versuch5/' | relative_url }}"
-           class="{% if page.url contains 'Versuch5' %}active{% endif %}">
-          Versuch 5
-        </a>
-      </li>
+<li>
+<a href="{{ '/docs/Versuch2/index.html' | relative_url }}"
+class="{% if page.url contains 'Versuch2' %}active{% endif %}">
+Versuch 2
+</a>
+</li>
 
-    </ul>
-  </aside>
+<li>
+<a href="{{ '/docs/Versuch3/index.html' | relative_url }}"
+class="{% if page.url contains 'Versuch3' %}active{% endif %}">
+Versuch 3
+</a>
+</li>
 
-  <!-- ===== Content ===== -->
-  <main class="content">
-    <div class="page-container">
+<li>
+<a href="{{ '/docs/Versuch4/index.html' | relative_url }}"
+class="{% if page.url contains 'Versuch4' %}active{% endif %}">
+Versuch 4
+</a>
+</li>
 
-      <!-- ===== Kapitelüberschrift ===== -->
-      {% if page.title %}
-        <h1 class="page-title">{{ page.title }}</h1>
-      {% endif %}
+<li>
+<a href="{{ '/docs/Versuch5/index.html' | relative_url }}"
+class="{% if page.url contains 'Versuch5' %}active{% endif %}">
+Versuch 5
+</a>
+</li>
 
-      {{ content }}
+</ul>
 
-      <!-- ===== Automatische Kapitelnavigation ===== -->
+</aside>
 
-      {% assign current_dir = page.dir %}
 
-      {% assign pages_in_dir = site.pages 
-        | where_exp: "p", "p.dir == current_dir"
-      %}
+<!-- ===== Content ===== -->
 
-      {% assign md_pages = "" | split: "" %}
+<main class="content">
 
-      {% for p in pages_in_dir %}
-        {% if p.ext == ".md" %}
-          {% assign md_pages = md_pages | push: p %}
-        {% endif %}
-      {% endfor %}
+<div class="page-container">
 
-      {% assign sorted_pages = md_pages | sort: "name" %}
+{% if page.title %}
+<h1 class="page-title">{{ page.title }}</h1>
+{% endif %}
 
-      {% assign current_index = 0 %}
-      {% for p in sorted_pages %}
-        {% if p.path == page.path %}
-          {% assign current_index = forloop.index0 %}
-        {% endif %}
-      {% endfor %}
+{{ content }}
 
-      <div class="doc-navigation">
+</div>
 
-        {% if current_index > 0 %}
-          <a class="nav-arrow prev"
-             href="{{ sorted_pages[current_index | minus: 1].url | relative_url }}">
-             ← Vorheriges Kapitel
-          </a>
-        {% endif %}
-
-        {% if current_index < sorted_pages.size | minus: 1 %}
-          <a class="nav-arrow next"
-             href="{{ sorted_pages[current_index | plus: 1].url | relative_url }}">
-             Nächstes Kapitel →
-          </a>
-        {% endif %}
-
-      </div>
-
-    </div>
-  </main>
+</main>
 
 </div>
 
 </body>
+
 </html>
