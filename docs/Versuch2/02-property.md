@@ -1,3 +1,10 @@
+---
+layout: default
+title: Property
+---
+
+
+
 ## Service
 
 Jeder Studierende erstellt einen eigenen **Fastly Service**.  
