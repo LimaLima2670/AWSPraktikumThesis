@@ -14,7 +14,7 @@ In diesem Versuch soll näher auf die Kommandozeile und die APIs von AWS eingega
 
 ### AWS CloudShell
 
-![AWS CloudShell Logo](../../assets/Versuch5/aws_cloudshell.svg)
+![AWS CloudShell Logo](../assets/aws_cloudshell.svg)
 
 AWS CloudShell bietet Zugang zu einer voreingestellte Kommandozeile über den Browser. Die nötigen APIs und Bibliotheken sowie gebräuchliche Entwicklertools (z.B. Python) sind bereits installiert. Somit ist beispielsweise die Installation der AWS-Kommandozeile auf dem lokalen PC nicht nötig.
 
