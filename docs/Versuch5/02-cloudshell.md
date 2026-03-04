@@ -101,7 +101,13 @@ Um zu überprüfen, ob eine Datei in die CloudShell kopiert wurde, kann der Befe
   </ul>
 </div>
 
+---
 
+⬅️ **Vorheriges Kapitel:**  
+[Einführung](01-einfuehrung.md)
+
+➡️ **Nächstes Kapitel:**  
+[Python SDK](03-python_sdk.md)
 
 
 [^1]: [https://docs.aws.amazon.com/cli/latest/userguide/cli-usage-commandstructure.html](https://docs.aws.amazon.com/cli/latest/userguide/cli-usage-commandstructure.html)
