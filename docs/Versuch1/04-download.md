@@ -33,3 +33,11 @@ Schon die Übersicht zeigt die Videodatenrate und die Audiodatenrate. Ebenso wer
     | Audio-Bitrate        |          |         |         |
 
 ![MediaInfo](../assets/metadaten_mediainfo.png)
+
+---
+
+⬅️ **Vorheriges Kapitel:**  
+[Transcodierung](03-transcoder.md)
+
+➡️ **Nächstes Kapitel:**  
+[Fazit](05-fazit.md)
