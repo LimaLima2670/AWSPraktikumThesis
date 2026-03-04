@@ -23,7 +23,7 @@ Als Objektspeicher wird für diesen Versuch *AWS S3* verwendet. Einzelne Objekte
 > Gespeicherte Dateien verursachen sowohl pro Zeiteinheit Speicherkosten als auch pro übertragene Gigabyte Downloadkosten.
 ### Transcodierer (*AWS Elemental MediaConvert*)
 
-![AWS Elemental Mediaconvert Logo](../assets/aws_elemental_mediaconvert.svg){ align=left style="height:125px;width:125px;margin-top:0" }
+![AWS Elemental Mediaconvert Logo](../assets/aws_elemental_mediaconvert.svg)
 
 Als *Software-as-a-Service* Lösung bieten Cloud-Transcoder für verschiedenste Einsatzzwecke Transcodierungsleistungen, ohne dass sich die Nutzer um Hardware oder Betriebssysteme kümmern müssen.
 
