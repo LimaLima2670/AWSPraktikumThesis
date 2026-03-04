@@ -45,6 +45,15 @@ Eine mögliche Ordnerstruktur der Abgabe ist nachfolgend beispielhaft dargestell
         📄 Clip2_high_00001.ts
     📁 Templates
         📄 musterstudent_template2.json
+
+
+        ---
+
+⬅️ **Vorheriges Kapitel:**  
+[Testen](05-testen.md)
+
+➡️ **Nächstes Kapitel:**  
+[Troubleshooting](07-troubleshooting.md)
     ...
 
 ```
