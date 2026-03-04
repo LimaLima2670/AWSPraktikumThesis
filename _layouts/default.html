@@ -8,17 +8,13 @@
 <title>{{ page.title }}</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-
 <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 
 </head>
 
-
 <body>
 
 <div class="wrapper">
-
-<!-- ===== Sidebar ===== -->
 
 <aside class="sidebar">
 
@@ -27,53 +23,24 @@
 <ul>
 
 <li>
-<a href="{{ '/docs/index.html' | relative_url }}"
-class="{% if page.url == '/docs/' %}active{% endif %}">
-Überblick
-</a>
+<a href="{{ '/' | relative_url }}">Überblick</a>
 </li>
 
 <li>
-<a href="{{ '/docs/Versuch1/index.html' | relative_url }}"
-class="{% if page.url contains 'Versuch1' %}active{% endif %}">
-Versuch 1
-</a>
+<a href="{{ '/docs/Versuch1/' | relative_url }}">Versuch 1</a>
 </li>
 
 <li>
-<a href="{{ '/docs/Versuch2/index.html' | relative_url }}"
-class="{% if page.url contains 'Versuch2' %}active{% endif %}">
-Versuch 2
-</a>
+<a href="{{ '/docs/Versuch2/' | relative_url }}">Versuch 2</a>
 </li>
 
 <li>
-<a href="{{ '/docs/Versuch3/index.html' | relative_url }}"
-class="{% if page.url contains 'Versuch3' %}active{% endif %}">
-Versuch 3
-</a>
-</li>
-
-<li>
-<a href="{{ '/docs/Versuch4/index.html' | relative_url }}"
-class="{% if page.url contains 'Versuch4' %}active{% endif %}">
-Versuch 4
-</a>
-</li>
-
-<li>
-<a href="{{ '/docs/Versuch5/index.html' | relative_url }}"
-class="{% if page.url contains 'Versuch5' %}active{% endif %}">
-Versuch 5
-</a>
+<a href="{{ '/docs/Versuch3/' | relative_url }}">Versuch 3</a>
 </li>
 
 </ul>
 
 </aside>
-
-
-<!-- ===== Content ===== -->
 
 <main class="content">
 
@@ -92,5 +59,4 @@ Versuch 5
 </div>
 
 </body>
-
 </html>
