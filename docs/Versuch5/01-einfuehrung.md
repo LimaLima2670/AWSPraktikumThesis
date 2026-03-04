@@ -1,3 +1,11 @@
+---
+layout: default
+title: Einfuehrung
+---
+
+
+
+
 # Einführung
 
 In diesem Versuch soll näher auf die Kommandozeile und die APIs von AWS eingegangen werden. Zuerst werden einige Befehle auf der AWS CloudShell ausgeführt und danach werden die Lambda-Funktionen aus Versuch 3 mit zusätzlichen Funktionen ausgestattet.
