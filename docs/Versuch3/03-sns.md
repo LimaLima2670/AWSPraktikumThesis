@@ -1,3 +1,11 @@
+---
+layout: default
+title: SNS
+---
+
+
+
+
 # SNS
 
 Damit die Statusmeldungen per Mail versendet werden können, muss ein Veröffentlichungsthema erstellt werden. Diesem Thema kann danach ein Abonnement hinzugefügt werden, um die Nachrichten per Mail empfangen zu können.
