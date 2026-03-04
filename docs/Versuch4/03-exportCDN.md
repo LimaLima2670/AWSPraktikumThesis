@@ -22,7 +22,7 @@ https://<FASTLY-EDGE-HOSTNAME>/export/<clipname>/<master-playlist>.m3u8
 https://lelugoue.global.ssl.fastly.net/export/clip1/master.m3u8
 ```
 
-![lelugoueservice](../../assets/Versuch4/lelugoueservice.jpg)
+![lelugoueservice](../assets/lelugoueservice.jpg)
 
 
 
@@ -63,11 +63,11 @@ folgenden Ordner für den öffentlichen Lesezugriff freigegeben sind:
 
 **Navigieren SIe dafür zu folgendem Reiter in ihrem dafür vorgesehenen Bucket**
 
-![berechtigung](../../assets/Versuch4/berechtigung.jpg)
+![berechtigung](../assets/erechtigung.jpg)
 
 **Dort müssen noch weitere Bucketrichtlinien angepasst werden. Navigieren sie hierfür etwas weiter runter bis Sie folgendes Feld sehen**
 
-![Bucket](../../assets/Versuch4/Bucketrichtlinien.jpg)
+![Bucket](../assets/Bucketrichtlinien.jpg)
 
 
 **Dort muss folgende Anpassung noch entstehen:**
@@ -98,7 +98,7 @@ https://<FASTLY-EDGE-HOSTNAME>/export/<CLIPNAME>/<CLIPNAME>.m3u8
 
 **Sie sollten folgendes nun auf ihrem Bildschirm sehen:**
 
-![SuccesfulCountdown](../../assets/Versuch4/countdownsuc.jpg)
+![SuccesfulCountdown](../assets/countdownsuc.jpg)
 
 
 **Hinweis zu CORS (zwingend erforderlich)**
@@ -110,4 +110,10 @@ Dadurch greift die browserseitige Same-Origin-Policy.
 Wie bereits in einem vorherigen Versuch ist daher für diesen Test
 eine CORS-Browser-Extension erforderlich.
 
+---
 
+⬅️ **Vorheriges Kapitel:**  
+[Standprüfung](02-Standprüfung.md)
+
+➡️ **Nächstes Kapitel:**  
+[Fazit](04-fazit.md)
