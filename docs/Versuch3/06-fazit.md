@@ -1,3 +1,11 @@
+---
+layout: default
+title: Fazit
+---
+
+
+
+
 # Fazit
 
 In Versuch 3 wurden die Grundprinzipien eines automatisieren Transcoding-Workflows erläutert und ein solcher in AWS erstellt. Sobald Rohmaterial ingestiert wurde, wurde dieses in HLS transcodiert und zum Origin-Server des CDNs hochgeladen.
