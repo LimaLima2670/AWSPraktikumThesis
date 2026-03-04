@@ -50,4 +50,12 @@ Fastly für jeden Service eine sogenannte **Service Domain** zur Verfügung.
 
 Im oberen Teil der Abbildung ist ein Legacy-CDN dargestellt. Änderungen an den Inhalten erfolgen am Origin-Server, werden jedoch nur zeitbasiert (z. B. über feste Cache-Invalidierungsintervalle) an die CDN-Knoten weitergegeben. Dadurch kann es zu Verzögerungen kommen, bis aktualisierte Inhalte bei den Endnutzern verfügbar sind.
 
+---
+
+⬅️ **Vorheriges Kapitel:**  
+[Zurück zur Übersicht](index.md)
+
+➡️ **Nächstes Kapitel:**  
+[Property](02-property.md)
+
 Der untere Teil der Abbildung zeigt den Fastly-CDN-Ansatz. Hier werden Änderungen am Origin unmittelbar erkannt und ereignisbasiert („update on change“) an das CDN übertragen. Aktualisierte Inhalte stehen dadurch nahezu in Echtzeit an den Edge-Servern zur Verfügung und können ohne lange Wartezeiten an die Endnutzer ausgeliefert werden
