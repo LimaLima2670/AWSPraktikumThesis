@@ -1,3 +1,9 @@
+---
+layout: default
+title: Einführung
+---
+
+
 # Einführung
 
 Zuerst werden für diesen Versuch die Grundbegriffe geklärt und das Konzept erläutert. Danach wird mithilfe der Schritt für Schritt Anleitung ein erster Transcodierauftrag erstellt und gestartet. Ziel ist es, nach Versuch 1 ein grundlegendes Verständnis für Cloud-Transcoder zu haben und einen Cloud-Transcoder erstellen zu können.
