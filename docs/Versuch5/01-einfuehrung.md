@@ -40,3 +40,12 @@ Das Kommandozeilen-Tool kann wie jedes andere Programm der Kommandozeile auch du
  Das Software-Entwicklungs-Kit (SDK) für AWS in Python heißt boto3. Über diese Bibliothek können, wie auch mit der Kommandozeile Ressourcen aufgelistet, erstellt und gelöscht werden.
 
 Das Ausführen von Python-Scripten mit der boto3 Bibliothek ist ohne weitere Einstellungen von der AWS CloudShell möglich. Neben der automatischen Authentifizierung bietet die Ausführung in der CloudShell eine deutlich geringere Latenz als die Ausführung auf dem lokalen PC.
+
+
+---
+
+⬅️ **Vorheriges Kapitel:**  
+[Zurück zur Übersicht](index.md)
+
+➡️ **Nächstes Kapitel:**  
+[CloudShell](02-cloudshell.md)
