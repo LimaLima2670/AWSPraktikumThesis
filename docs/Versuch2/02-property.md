@@ -118,3 +118,11 @@ Vergleichbar mit den Property Rules bei Akamai wird die Anfrage anhand definiert
 
 Für diesen Versuch wird ausschließlich die automatisch angelegte Default Configuration verwendet und gezielt angepasst.
 Weitere Regeln sind nicht erforderlich, da ausschließlich VOD-Inhalte (HLS) ausgeliefert werden.
+
+---
+
+⬅️ **Vorheriges Kapitel:**  
+[Einführung](01-einfuehrung.md)
+
+➡️ **Nächstes Kapitel:**  
+[NetStorage](03-netstorage.md)
