@@ -6,7 +6,7 @@ Zuerst werden für diesen Versuch die Grundbegriffe geklärt und das Konzept erl
 
 ### Cloud-Speicher (*AWS S3*)
 
-![AWS S3 Logo](../../assets/Versuch1/aws_s3.svg)
+![AWS S3 Logo](../assets/Versuch1/aws_s3.svg)
 
 Cloud-Speicher-Lösungen bieten ähnlich wie die Konsumerprodukte Dropbox, Google Drive etc. Speicherplatz an. Im Industriellen Umfeld wird oft Objektspeicher verwendet, welcher Informationen als Objekte ablegt und nicht wie Dateisysteme in hierarchische Ordnerstrukturen. Jedes Objekt besitz einen global einzigartigen Identifikator und wird in einem Bucket (deutsch: Eimer) gespeichert. 
 
@@ -17,7 +17,7 @@ Als Objektspeicher wird für diesen Versuch *AWS S3* verwendet. Einzelne Objekte
 
 ### Transcodierer (*AWS Elemental MediaConvert*)
 
-![AWS Elemental Mediaconvert Logo](../../assets/Versuch1/aws_elemental_mediaconvert.svg){ align=left style="height:125px;width:125px;margin-top:0" }
+![AWS Elemental Mediaconvert Logo](../assets/Versuch1/aws_elemental_mediaconvert.svg){ align=left style="height:125px;width:125px;margin-top:0" }
 
 Als *Software-as-a-Service* Lösung bieten Cloud-Transcoder für verschiedenste Einsatzzwecke Transcodierungsleistungen, ohne dass sich die Nutzer um Hardware oder Betriebssysteme kümmern müssen.
 
@@ -32,25 +32,25 @@ In diesem Versuch wird *AWS Elemental MediaConvert* verwendet. Nachdem ein Trans
 
 In diesem Versuch greifen wir auf AWS über die WebGUI zu. Einloggen kann man sich über den Browser auf [aws.amazon.com](https://aws.amazon.com/de/). In der Anmeldemaske kann man zwischen einem *Stammbenutzer* und einem *IAM-Benutzer* wählen. Die Hochschule stellt verwaltete *IAM-Benutzer* zur Verfügung, daher muss diese Option gewählt werden. Die Kontonummer lautet `757773874047`, soweit nicht anders angegeben.
 
-![AWS Login Maske](../../assets/Versuch1/aws_login_01.png)
+![AWS Login Maske](../assets/Versuch1/aws_login_01.png)
 
 Nach Eingabe der bereitgestellten Kontonummer können auch der Benutzername sowie das Passwort eingegeben und der Log-in bestätigt werden. Das Passwort besteht aus dem Nutzernamen in Kleinbuchstaben, der Matrikelnummer und einem Ausrufezeichen. Für den Nutzer `musterst` mit der Matrikelnummer `12345` würde das Passwort also `musterst12345!` lauten.
 
-![AWS Login Maske](../../assets/Versuch1/aws_login_02.png)
+![AWS Login Maske](../assets/Versuch1/aws_login_02.png)
 
 Bei der ersten Anmeldung muss das Passwort auf ein Nutzereigenes Passwort geändert werden.
 
-![AWS Password Ändern](../../assets/Versuch1/aws_password_change.png)
+![AWS Password Ändern](../assets/Versuch1/aws_password_change.png)
 
 Das Dashboard ist der Startpunkt der AWS-Konsole und bietet die Möglichkeit, verschiedene Widgets anzuzeigen. Oben links lassen sich verschiedene Produkte und Services auswählen. Diese können ebenso über die Suchleiste gefunden werden. 
 
-![AWS WebGUI](../../assets/Versuch1/aws_dashboard.png)
+![AWS WebGUI](../assets/Versuch1/aws_dashboard.png)
 
 ### Region
 
-Oben rechts kann die Region, also der Standort des verwendeten Rechenzentrums, verändert werden. Für die Versuche ist die Nächstgelegende Region in diesem Fall *Frankfurt (`eu-central-1`)*, die sinnvollste.
+Oben rechts kann die Region, also der Standort des verwendeten Rechenzentrums, verändert werden. Für die Versuche ist die nächstgelegene Region in diesem Fall *Frankfurt (`eu-central-1`)*, die sinnvollste.
 
 !!! question "Frage 1"
     Eine Region beschreibt kein einzelnes Rechenzentrum. Recherchieren und erläutern Sie die Begriffe "Region" und "Availability Zone". Wie sind Regionen und Availability Zones miteinander verbunden?
 
-![AWS Region Setting](../../assets/Versuch1/aws_region.png)
+![AWS Region Setting](../assets/Versuch1/aws_region.png)
