@@ -19,7 +19,7 @@ Bei CloudShell handelt es sich um ein Entwicklungstool. Sollen z.B. Python-Scrip
 
 ### AWS CLI
 
-![AWS CLI Logo](../../assets/Versuch5/aws_cli.svg)
+![AWS CLI Logo](../assets/aws_cli.svg)
 
  Der Kommandozeilen-Zugang (engl. Command Line Interface) bietet die Möglichkeit AWS Ressourcen und Konfigurationen mithilfe der Kommandozeile zu steuern. Das Kommandozeilen-Tool kann sowohl auf dem eignen Rechner installiert als auch über AWS CloudShell genutzt werden. Bei der Ausführung in der CloudShell müssen keine Authentifizierungs-Daten angegeben werden, da die CloudShell an sich durch den eigenen Benutzer authentifiziert ist.
 
@@ -27,7 +27,7 @@ Das Kommandozeilen-Tool kann wie jedes andere Programm der Kommandozeile auch du
 
 ### AWS Python SDK (boto3)
 
-![AWS SDK Logo](aws_python_sdk.svg)
+![AWS SDK Logo](../assets/aws_python_sdk.svg)
 
  Das Software-Entwicklungs-Kit (SDK) für AWS in Python heißt boto3. Über diese Bibliothek können, wie auch mit der Kommandozeile Ressourcen aufgelistet, erstellt und gelöscht werden.
 
