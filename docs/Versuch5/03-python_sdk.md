@@ -235,4 +235,12 @@ Mit einem Klick auf "Deploy" können die Änderungen übernommen und der Test wi
     <li>welche Warteschlangen im Code simuliert wurden</li>
     <li>welche <b>Warteschlange</b> vom System nun ausgewählt wurde</li>
   </ul>
-</div>
+</div
+
+  ---
+
+⬅️ **Vorheriges Kapitel:**  
+[CloudShell](02-cloudshell.md)
+
+➡️ **Nächstes Kapitel:**  
+[Fazit](04-fazit.md)
