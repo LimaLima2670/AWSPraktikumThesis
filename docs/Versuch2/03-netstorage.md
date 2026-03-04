@@ -125,3 +125,12 @@ Kopieren Sie nun die Dateien des HLS-Testclips aus dem Source-Bucket in den soeb
 5. Bestätigen Sie den Kopiervorgang.
 
 **Nach Abschluss befinden sich alle für den HLS-Stream benötigten Dateien im eigenen Bucket und können von dort korrekt über das CDN ausgeliefert werden.**
+
+
+---
+
+⬅️ **Vorheriges Kapitel:**  
+[Property](02-property.md)
+
+➡️ **Nächstes Kapitel:**  
+[Inhalte abrufen](04-inhalte_abrufen.md)
