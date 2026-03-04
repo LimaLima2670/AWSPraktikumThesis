@@ -1,3 +1,11 @@
+---
+layout: default
+title: Fazit
+---
+
+
+
+
 # Fazit
 
 In Versuch 2 wurden die Grundprinzipien eines Content Delivery Networks (CDN) anhand von Fastly zur Medienverteilung erläutert.
