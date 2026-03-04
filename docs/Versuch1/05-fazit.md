@@ -28,3 +28,10 @@ In der Abgabe sollten die 3 transcodierten Dateien, die im Laufe des Versuchs er
         📄 Clip2_experiment.mp4
         ...
 ```
+---
+
+⬅️ **Vorheriges Kapitel:**  
+[Download](04-download.md)
+
+➡️ **Nächstes Kapitel:**  
+[Troubleshooting](06-troubleshooting.md)
