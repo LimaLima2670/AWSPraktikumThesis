@@ -51,3 +51,11 @@ Für die automatische Transcodierung muss MediaConvert mitgeteilt werden, welche
 ![S3 Kopie Zielpfad](copy.png)
 
 Kontrollieren Sie, dass die Datei in das richtige Verzeichnis kopiert wurde.
+
+---
+
+⬅️ **Vorheriges Kapitel:**  
+[Einführung](01-einfuehrung.md)
+
+➡️ **Nächstes Kapitel:**  
+[SNS](03-sns.md)
