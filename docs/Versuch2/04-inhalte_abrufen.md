@@ -1,3 +1,11 @@
+---
+layout: default
+title: Inhalte abrufen
+---
+
+
+
+
 # Inhalte Abrufen
 
 Die Inhalte sind nun über das CDN erreichbar.
