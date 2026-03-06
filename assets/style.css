@@ -1,4 +1,4 @@
-body {
+body{
 margin:0;
 font-family:"Inter",sans-serif;
 background:#0b1220;
@@ -43,6 +43,8 @@ padding:12px 0;
 border-bottom:1px solid rgba(255,255,255,0.05);
 }
 
+/* Links */
+
 .sidebar a{
 text-decoration:none;
 color:#a63a3a;
@@ -52,6 +54,28 @@ font-weight:500;
 
 .sidebar a:hover{
 color:#c04646;
+}
+
+/* Unterkapitel Navigation */
+
+.sidebar ul ul{
+margin-top:8px;
+margin-left:14px;
+}
+
+.sidebar ul ul li{
+padding:6px 0;
+border-bottom:none;
+}
+
+.sidebar ul ul a{
+font-size:14px;
+font-weight:400;
+color:#c8d0e0;
+}
+
+.sidebar ul ul a:hover{
+color:#ffffff;
 }
 
 /* Content Bereich */
