@@ -171,7 +171,7 @@ Die konkrete Einrichtung des Fastly-CDNs (Service, Origin, Hostname) erfolgt in 
   margin: 14px 0;
 ">
   <span style="color:cyan; font-weight:bold; font-size:1.2em;">
-    Frage 3
+    Frage 6
   </span><br><br>
 
   Erläutern Sie, warum für die Anbindung an <b>Fastly</b> keine zweite
