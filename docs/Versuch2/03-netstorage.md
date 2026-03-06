@@ -62,15 +62,27 @@ Sie sollten dort eine Dateiansicht wie in der folgenden Abbildung sehen.
 Verschaffen Sie sich einen Überblick über die im Source-Bucket vorhandenen Dateien.
 Achten Sie dabei insbesondere auf die vorhandenen Manifest-Dateien (*.m3u8), da diese die Struktur des Streams beschreiben.
 
-<div style="border: 2px solid #ffffff; padding: 14px; border-radius: 6px; margin: 14px 0;"> <span style="color:cyan; font-weight:bold; font-size:1.2em;"> Frage 4 </span><br><br>
+<div style="border:2px solid #ffffff; padding:14px; border-radius:6px; margin:14px 0;">
+
+<span style="color:cyan; font-weight:bold; font-size:1.2em;">
+Frage 4
+</span>
+
+<br><br>
 
 Dokumentieren Sie, welche <b>Manifest-Dateien (*.m3u8)</b> für den gesamten Clip
 sowie für die einzelnen Qualitätsstufen im Source-Bucket vorhanden sind.
 
 <br><br>
+
 Gehen Sie dabei insbesondere auf folgende Punkte ein:
 
-<ul> <li>welche Manifest-Dateien existieren</li> <li>welche Funktion die einzelnen Manifeste innerhalb des HLS-Streams übernehmen</li> </ul> </div>
+<ul>
+<li>Welche Manifest-Dateien existieren?</li>
+<li>Welche Funktion die einzelnen Manifeste innerhalb des HLS-Streams übernehmen?</li>
+</ul>
+
+</div>
 
 ## Anlegen eines Test-Unterordners im eigenen Bucket
 
