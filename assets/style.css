@@ -39,7 +39,6 @@ margin:0;
 }
 
 .sidebar li{
-padding:12px 0;
 border-bottom:1px solid rgba(255,255,255,0.05);
 }
 
@@ -51,27 +50,41 @@ color:#a63a3a;
 font-size:15px;
 font-weight:500;
 display:block;
+padding:12px 0;
 }
 
 .sidebar a:hover{
 color:#c04646;
 }
 
-/* Unterkapitel Navigation (Standard versteckt) */
+/* Dropdown Versuch Navigation */
+
+.sidebar summary{
+cursor:pointer;
+list-style:none;
+color:#a63a3a;
+font-size:15px;
+font-weight:500;
+padding:12px 0;
+border-bottom:1px solid rgba(255,255,255,0.05);
+}
+
+.sidebar summary:hover{
+color:#c04646;
+}
+
+/* Pfeil entfernen */
+
+.sidebar summary::-webkit-details-marker{
+display:none;
+}
+
+/* Unterkapitel */
 
 .subnav{
-display:none;
-margin-top:8px;
+margin-top:6px;
 margin-left:14px;
 }
-
-/* Beim Hover über Versuch anzeigen */
-
-.nav-section:hover .subnav{
-display:block;
-}
-
-/* Unterkapitel Styling */
 
 .subnav li{
 padding:6px 0;
@@ -82,6 +95,7 @@ border-bottom:none;
 font-size:14px;
 font-weight:400;
 color:#c8d0e0;
+padding:4px 0;
 }
 
 .subnav a:hover{
