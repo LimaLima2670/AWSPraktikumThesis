@@ -1,2 +1,75 @@
 title: AWS Praktikum
 markdown: kramdown
+
+nav:
+  - title: Überblick
+    url: /docs/
+
+  - title: Versuch 1
+    children:
+      - title: Einführung
+        url: /docs/Versuch1/01-einfuehrung/
+      - title: S3
+        url: /docs/Versuch1/02-S3/
+      - title: Transcoder
+        url: /docs/Versuch1/03-transcoder/
+      - title: Download
+        url: /docs/Versuch1/04-download/
+      - title: Fazit
+        url: /docs/Versuch1/05-fazit/
+      - title: Troubleshooting
+        url: /docs/Versuch1/06-troubleshooting/
+
+  - title: Versuch 2
+    children:
+      - title: Einführung
+        url: /docs/Versuch2/01-einfuehrung/
+      - title: Property
+        url: /docs/Versuch2/02-property/
+      - title: Netstorage
+        url: /docs/Versuch2/03-netstorage/
+      - title: Inhalte abrufen
+        url: /docs/Versuch2/04-inhalte_abrufen/
+      - title: Fazit
+        url: /docs/Versuch2/05-fazit/
+
+  - title: Versuch 3
+    children:
+      - title: Einführung
+        url: /docs/Versuch3/01-einfuehrung/
+      - title: S3 Vorbereitungen
+        url: /docs/Versuch3/02-s3_vorbereitungen/
+      - title: SNS
+        url: /docs/Versuch3/03-sns/
+      - title: Lambda
+        url: /docs/Versuch3/04-lambda/
+      - title: Testen
+        url: /docs/Versuch3/05-testen/
+      - title: Fazit
+        url: /docs/Versuch3/06-fazit/
+      - title: Troubleshooting
+        url: /docs/Versuch3/07-troubleshooting/
+
+  - title: Versuch 4
+    children:
+      - title: Einführung
+        url: /docs/Versuch4/01-einfuehrung/
+      - title: Standprüfung
+        url: /docs/Versuch4/02-Standprüfung/
+      - title: Export CDN
+        url: /docs/Versuch4/03-exportCDN/
+      - title: Fazit
+        url: /docs/Versuch4/04-fazit/
+
+  - title: Versuch 5
+    children:
+      - title: Einführung
+        url: /docs/Versuch5/01-einfuehrung/
+      - title: Cloudshell
+        url: /docs/Versuch5/02-cloudshell/
+      - title: Python SDK
+        url: /docs/Versuch5/03-python_sdk/
+      - title: Fazit
+        url: /docs/Versuch5/04-fazit/
+      - title: Troubleshooting
+        url: /docs/Versuch5/05-troubleshooting/
