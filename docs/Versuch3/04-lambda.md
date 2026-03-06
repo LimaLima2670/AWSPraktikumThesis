@@ -51,10 +51,16 @@ Ist der Auslöser erstellt, wird er oben in der Übersicht angezeigt.
 
 ### Code der Lambda-Funktion
 
-!!! question "Frage 2"
-    Versehen Sie den Code mit Kommentaren, die die einzelnen Abschnitte und Befehle beschreiben. Es muss nicht zu jedem Befehl ein Kommentar geschrieben werden, dokumentieren Sie den Code aber so, dass die Funktionsweise ersichtlich wird. 
-    
-    Fügen Sie den kommentierten Code entweder als .py-Datei der Abgabe hinzu oder integrieren Sie den Code als Bild oder Text in den Bericht.
+<div style="border:2px solid #ffffff; padding:18px; border-radius:8px; margin:25px 0;">
+
+<div style="color:#06b6d4; font-weight:600; font-size:18px; margin-bottom:10px;">
+Frage 6
+</div>
+
+Versehen Sie den Code mit Kommentaren, die die einzelnen Abschnitte und Befehle beschreiben.  
+Es muss nicht zu jedem einzelnen Befehl ein Kommentar geschrieben werden. Dokumentieren Sie den Code jedoch so, dass die **Funktionsweise insgesamt nachvollziehbar** wird.
+
+</div>
 
 Im Nachfolgenden soll der Python-Code in die automatisch erstellte Datei "lambda_function.py" kopiert werden.
 
@@ -164,21 +170,22 @@ Die vom CDN bereitgestellte Fastly-URL ersetzt anschließend die direkte S3-URL 
 Die konkrete Einrichtung des Fastly-CDNs (Service, Origin, Hostname) erfolgt in Versuch 4 und ist nicht Bestandteil dieses Versuchs.
 
 
-<div style="
-  border: 2px solid #ffffff;
-  padding: 14px;
-  border-radius: 6px;
-  margin: 14px 0;
-">
-  <span style="color:cyan; font-weight:bold; font-size:1.2em;">
-    Frage 6
-  </span><br><br>
+<div style="border:2px solid #ffffff; padding:14px; border-radius:6px; margin:14px 0;">
 
-  Erläutern Sie, warum für die Anbindung an <b>Fastly</b> keine zweite
-  <b>Lambda-Funktion</b> zur Übertragung der Dateien erforderlich ist.
-  <br><br>
-  Gehen Sie dabei insbesondere auf das <b>Pull-Prinzip von CDNs</b> und die
-  Rolle von <b>AWS S3 als Origin</b> ein.
+<span style="color:#06b6d4; font-weight:bold; font-size:1.2em;">
+Frage 7
+</span>
+
+<br><br>
+
+Erläutern Sie, warum für die Anbindung an <b>Fastly</b> keine zweite
+<b>Lambda-Funktion</b> zur Übertragung der Dateien erforderlich ist.
+
+<br><br>
+
+Gehen Sie dabei insbesondere auf das <b>Pull-Prinzip von CDNs</b> und die
+Rolle von <b>AWS S3 als Origin</b> ein.
+
 </div>
 
 ---
