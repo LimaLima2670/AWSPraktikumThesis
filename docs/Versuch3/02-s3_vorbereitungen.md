@@ -43,8 +43,17 @@ Es werden folgende Ordner angelegt:
 
 Für die automatische Transcodierung muss MediaConvert mitgeteilt werden, welche Transcodierparameter gewählt werden sollen. Dies geschieht über eine Vorlage im JSON-Format. Ein Beispiel für diese Vorlage steht in `a--sourcefiles` zur Verfügung und soll in den Ordner `templates` kopiert werden.
 
-!!! question "Frage 1"
-    Laden Sie die JSON Vorlage herunter und öffnen Sie diese in einem Texteditor. Welche Auflösungen werden durch diese Vorlage erzeugt? Welche durchschnittlichen und maximalen Video-Bitraten besitzen die Auflösungen jeweils?
+<div style="border:2px solid #d1d5db; background:#ffffff; padding:18px; border-radius:8px; margin:25px 0;">
+
+<div style="color:#06b6d4; font-weight:600; font-size:18px; margin-bottom:10px;">
+Frage 5
+</div>
+
+Laden Sie die JSON-Vorlage herunter und öffnen Sie diese in einem Texteditor.  
+Welche **Auflösungen** werden durch diese Vorlage erzeugt?  
+Welche **durchschnittlichen und maximalen Video-Bitraten** besitzen die Auflösungen jeweils?
+
+</div>
 
 ![S3 Quellpfad](vorlage.png)
 
