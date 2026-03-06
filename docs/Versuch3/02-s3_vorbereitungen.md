@@ -55,9 +55,9 @@ Welche **durchschnittlichen und maximalen Video-Bitraten** besitzen die Auflösu
 
 </div>
 
-![S3 Quellpfad](vorlage.png)
+![S3 Quellpfad](../assets/vorlage.png)
 
-![S3 Kopie Zielpfad](copy.png)
+![S3 Kopie Zielpfad](../assets/copy.png)
 
 Kontrollieren Sie, dass die Datei in das richtige Verzeichnis kopiert wurde.
 
