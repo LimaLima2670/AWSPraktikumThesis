@@ -15,8 +15,17 @@ Zur Kontrolle, ob alle Codierungsparameter berücksichtigt wurden, lässt sich d
 
 Schon die Übersicht zeigt die Videodatenrate und die Audiodatenrate. Ebenso werden die verwendeten Audio- und Video-Codecs angezeigt. In anderen Ansichten wie die "Tree"-Ansicht sind auch tiefer gehende Eigenschaften wie Farbraum und Chroma-Subsampling aufgelistet.
 
-!!! question "Frage 4"
-    Welche Codierungsparameter wurden von MediaConvert für die verschiedenen Formate gewählt? Geben Sie die Parameter in einer Tabelle mit der folgenden Form an:
+<div style="border:2px solid #d1d5db; background:#ffffff; padding:18px; border-radius:8px; margin:25px 0;">
+
+<div style="color:#06b6d4; font-weight:600; font-size:18px; margin-bottom:10px;">
+Frage 4
+</div>
+
+Welche Codierungsparameter wurden von **AWS MediaConvert** für die verschiedenen Formate gewählt?  
+Geben Sie die Parameter in einer Tabelle mit der folgenden Form an:
+
+</div>
+
 
     | Parameter            | `_1080p` | `_720p` | `_480p` |
     | -------------------- | -------- | ------- | ------- |
