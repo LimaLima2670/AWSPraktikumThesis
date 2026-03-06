@@ -45,26 +45,26 @@ aws s3 ls
 Dabei ruft `aws` die AWS CLI auf, `s3` legt den Service, in diesem Fall AWS S3, fest und `ls` ist der auszuführende Befehl. Wie auch in Linux-Systemen steht `ls` für "list" und listet alle enthaltenen Elemente, in diesem Fall S3-Buckets auf.
 
 
-<div style="
-  border: 2px solid #ffffff;
-  padding: 14px;
-  border-radius: 6px;
-  margin: 14px 0;
-">
-  <span style="color:cyan; font-weight:bold; font-size:1.2em;">
-    Frage 1
-  </span><br><br>
+<div style="border:2px solid #ffffff; padding:14px; border-radius:6px; margin:14px 0;">
 
-  Führen Sie den oben angegebenen Befehl aus (<code>aws s3 ls</code>).
-  <br><br>
+<span style="color:#06b6d4; font-weight:bold; font-size:1.2em;">
+Frage 9
+</span>
 
-  Dokumentieren Sie:
-  <ul>
-    <li>welche <b>S3-Buckets</b> in der Ausgabe angezeigt werden</li>
-    <li>einen <b>Screenshot der Kommandozeilenausgabe</b></li>
-  </ul>
+<br><br>
+
+Führen Sie den oben angegebenen Befehl aus (<code>aws s3 ls</code>).
+
+<br><br>
+
+Dokumentieren Sie:
+
+<ul>
+<li>welche <b>S3-Buckets</b> in der Ausgabe angezeigt werden</li>
+<li>einen <b>Screenshot der Kommandozeilenausgabe</b></li>
+</ul>
+
 </div>
-
 
 ### Parameter
 
@@ -85,7 +85,7 @@ Um zu überprüfen, ob eine Datei in die CloudShell kopiert wurde, kann der Befe
   margin: 14px 0;
 ">
   <span style="color:cyan; font-weight:bold; font-size:1.2em;">
-    Frage 2
+    Frage 10
   </span><br><br>
 
   Führen Sie den Kopierbefehl zunächst mit der Option
