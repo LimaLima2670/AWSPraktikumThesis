@@ -56,7 +56,7 @@ Das Dashboard ist der Startpunkt der AWS-Konsole und bietet die Möglichkeit, ve
 
 Oben rechts kann die Region, also der Standort des verwendeten Rechenzentrums, verändert werden. Für die Versuche ist die nächstgelegene Region in diesem Fall *Frankfurt (`eu-central-1`)*, die sinnvollste.
 
-<div style="border:2px solid #d1d5db; background:#ffffff; padding:18px; border-radius:8px; margin:25px 0;">
+<div style="border:2px solid #ffffff; padding:18px; border-radius:8px; margin:25px 0;">
 
 <div style="color:#06b6d4; font-weight:600; font-size:18px; margin-bottom:10px;">
 Frage 1
