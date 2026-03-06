@@ -103,8 +103,15 @@ Als letzter Schritt muss im Menüpunkt "Aufgabenverwaltung" noch die eigene Wart
 
 Ist der Auftrag erstellt, erfolgt eine Weiterleitung auf die "Aufgabenübersicht" des erstellten Auftrags, in der der aktuelle Stand des Auftrags angezeigt wird. Ist der Auftrag eingegangen, wird `SUBMITTED` im Status angezeigt. Die Aufgabenübersicht wird nicht automatisch aktualisiert und muss daher manuell über den Button "Aktualisieren" auf den aktuellen Stand gebracht werden.
 
-!!! question "Frage 3"
-    Wie lange dauerte der Transcodiervorgang?
+<div style="border:2px solid #d1d5db; background:#ffffff; padding:18px; border-radius:8px; margin:25px 0;">
+
+<div style="color:#06b6d4; font-weight:600; font-size:18px; margin-bottom:10px;">
+Frage 3
+</div>
+
+Wie lange dauerte der Transcodiervorgang?
+
+</div>
 
 ![MediaConvert Job Submitted](../assets/mediaconvert_job_submitted.png)
 
