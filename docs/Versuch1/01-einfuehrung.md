@@ -56,10 +56,18 @@ Das Dashboard ist der Startpunkt der AWS-Konsole und bietet die Möglichkeit, ve
 
 Oben rechts kann die Region, also der Standort des verwendeten Rechenzentrums, verändert werden. Für die Versuche ist die nächstgelegene Region in diesem Fall *Frankfurt (`eu-central-1`)*, die sinnvollste.
 
-!!! question "Frage 1"
-    Eine Region beschreibt kein einzelnes Rechenzentrum. Recherchieren und erläutern Sie die Begriffe "Region" und "Availability Zone". Wie sind Regionen und Availability Zones miteinander verbunden?
+<div style="border:2px solid #d1d5db; background:#ffffff; padding:18px; border-radius:8px; margin:25px 0;">
 
-![AWS Region Setting](../assets/Versuch1/aws_region.png)
+<div style="color:#06b6d4; font-weight:600; font-size:18px; margin-bottom:10px;">
+Frage 1
+</div>
+
+Eine Region beschreibt kein einzelnes Rechenzentrum. Recherchieren und erläutern Sie die Begriffe **„Region“** und **„Availability Zone“**.  
+Wie sind Regionen und Availability Zones miteinander verbunden?
+
+</div>
+
+![AWS Region Setting](../assets/aws_region.png)
 
 ---
 
