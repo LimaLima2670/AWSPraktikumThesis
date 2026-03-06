@@ -81,40 +81,42 @@ queue = sorted_queues[0]['Arn']
 print(f"Gewaehlte Queue: {queue}")
 ```
 
-<div style="
-  border: 2px solid #ffffff;
-  padding: 14px;
-  border-radius: 6px;
-  margin: 14px 0;
-">
-  <span style="color:cyan; font-weight:bold; font-size:1.2em;">
-    Frage 3
-  </span><br><br>
+<div style="border:2px solid #ffffff; padding:14px; border-radius:6px; margin:14px 0;">
 
-  Implementieren Sie den zusätzlichen Code in Ihre
-  <b>„CreateJob“-Lambdafunktion</b> aus <b>Versuch&nbsp;3</b>.
-  <br><br>
+<span style="color:#06b6d4; font-weight:bold; font-size:1.2em;">
+Frage 11
+</span>
 
-  Der Code soll <b>direkt nach</b> der Initialisierung von
-  <code>mediaconvert = boto3.client</code> eingefügt werden.
-  <br><br>
+<br><br>
 
-  Ersetzen Sie dabei <code>Key1</code> und <code>Key2</code> durch geeignete
-  Eigenschaften der Warteschlangen, sodass die optimale Queue
-  automatisch ausgewählt wird.
-  <br><br>
+Implementieren Sie den zusätzlichen Code in Ihre
+<b>„CreateJob“-Lambdafunktion</b> aus <b>Versuch&nbsp;3</b>.
 
-  Die exakte Bezeichnung der verfügbaren Eigenschaften kann im Abschnitt
-  <b>„Response Syntax“</b> der offiziellen
-  <a href="https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/mediaconvert/client/list_queues.html" target="_blank">
-    Boto3-Dokumentation
-  </a>
-  nachgelesen werden.
-  <br><br>
+<br><br>
 
-  Dokumentieren und kommentieren Sie den eingesetzten Code im Bericht.
+Der Code soll <b>direkt nach</b> der Initialisierung von
+<code>mediaconvert = boto3.client</code> eingefügt werden.
+
+<br><br>
+
+Ersetzen Sie dabei <code>Key1</code> und <code>Key2</code> durch geeignete
+Eigenschaften der Warteschlangen, sodass die optimale Queue
+automatisch ausgewählt wird.
+
+<br><br>
+
+Die exakte Bezeichnung der verfügbaren Eigenschaften kann im Abschnitt
+<b>„Response Syntax“</b> der offiziellen
+<a href="https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/mediaconvert/client/list_queues.html" target="_blank">
+Boto3-Dokumentation
+</a>
+nachgelesen werden.
+
+<br><br>
+
+Dokumentieren und kommentieren Sie den eingesetzten Code im Bericht.
+
 </div>
-
 
     Dokumentieren und kommentieren Sie den eingesetzten Code im Bericht.
 
@@ -172,35 +174,37 @@ Der Name des Buckets sowie der Key der Datei muss individuell abgeändert werden
 
 Ist das Testereignis erstellt, kann es über den Test-Button ausgelöst werden.
 
-<div style="
-  border: 2px solid #ffffff;
-  padding: 14px;
-  border-radius: 6px;
-  margin: 14px 0;
-">
-  <span style="color:cyan; font-weight:bold; font-size:1.2em;">
-    Frage 4
-  </span><br><br>
+<div style="border:2px solid #ffffff; padding:14px; border-radius:6px; margin:14px 0;">
 
-  Lösen Sie das <b>Testereignis</b> in der Lambda-Funktion aus und
-  dokumentieren Sie das Ergebnis.
-  <br><br>
+<span style="color:#06b6d4; font-weight:bold; font-size:1.2em;">
+Frage 12
+</span>
 
-  Im Bereich <b>„Function Logs“</b> wird die erzeugte <b>Job-ID</b>
-  angezeigt.
-  <br><br>
+<br><br>
 
-  Öffnen Sie anschließend den Service <b>AWS Elemental MediaConvert</b>
-  und suchen Sie den Job anhand dieser Job-ID.
-  <br><br>
+Lösen Sie das <b>Testereignis</b> in der Lambda-Funktion aus und
+dokumentieren Sie das Ergebnis.
 
-  Dokumentieren Sie:
-  <ul>
-    <li>die <b>Job-ID</b></li>
-    <li>die vom System gewählte <b>Warteschlange</b></li>
-  </ul>
+<br><br>
+
+Im Bereich <b>„Function Logs“</b> wird die erzeugte <b>Job-ID</b>
+angezeigt.
+
+<br><br>
+
+Öffnen Sie anschließend den Service <b>AWS Elemental MediaConvert</b>
+und suchen Sie den Job anhand dieser Job-ID.
+
+<br><br>
+
+Dokumentieren Sie:
+
+<ul>
+<li>die <b>Job-ID</b></li>
+<li>die vom System gewählte <b>Warteschlange</b></li>
+</ul>
+
 </div>
-
 
 ### Volle Warteschlangen simulieren
 
@@ -213,29 +217,31 @@ queues = json.loads(json_string)
 
 Mit einem Klick auf "Deploy" können die Änderungen übernommen und der Test wiederholt gestartet werden.
 
-<div style="
-  border: 2px solid #ffffff;
-  padding: 14px;
-  border-radius: 6px;
-  margin: 14px 0;
-">
-  <span style="color:cyan; font-weight:bold; font-size:1.2em;">
-    Frage 5
-  </span><br><br>
+<div style="border:2px solid #ffffff; padding:14px; border-radius:6px; margin:14px 0;">
 
-  Dokumentieren Sie die vorgenommenen <b>Änderungen im Code</b> zur
-  Simulation ausgelasteter Warteschlangen.
-  <br><br>
+<span style="color:#06b6d4; font-weight:bold; font-size:1.2em;">
+Frage 13
+</span>
 
-  Führen Sie anschließend den Test der Lambda-Funktion erneut aus.
-  <br><br>
+<br><br>
 
-  Geben Sie an:
-  <ul>
-    <li>welche Warteschlangen im Code simuliert wurden</li>
-    <li>welche <b>Warteschlange</b> vom System nun ausgewählt wurde</li>
-  </ul>
-</div
+Dokumentieren Sie die vorgenommenen <b>Änderungen im Code</b> zur
+Simulation ausgelasteter Warteschlangen.
+
+<br><br>
+
+Führen Sie anschließend den Test der Lambda-Funktion erneut aus.
+
+<br><br>
+
+Geben Sie an:
+
+<ul>
+<li>welche Warteschlangen im Code simuliert wurden</li>
+<li>welche <b>Warteschlange</b> vom System nun ausgewählt wurde</li>
+</ul>
+
+</div>
 
   ---
 
