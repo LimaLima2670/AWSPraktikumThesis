@@ -54,7 +54,7 @@ Die Felder „Kategorie“ und „Beschreibung“ können leer gelassen werden.
 Nun können unter „Eingaben“ und „Ausgabegruppen“ wie gewohnt
 die gewünschten Transcodierungseinstellungen festgelegt werden.
 
-<div style="border: 2px solid #ffffff; padding: 14px; border-radius: 6px; margin: 14px 0;"> <span style="color:cyan; font-weight:bold; font-size:1.2em;">Frage 4</span><br><br>
+<div style="border: 2px solid #ffffff; padding: 14px; border-radius: 6px; margin: 14px 0;"> <span style="color:cyan; font-weight:bold; font-size:1.2em;">Frage 7</span><br><br>
 
 Wählen Sie eigene Transcodierungs-Einstellungen.
 Probieren Sie andere Codecs, Bitraten, Seitenverhältnisse oder
