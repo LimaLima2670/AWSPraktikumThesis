@@ -15,7 +15,7 @@ abgerufen werden.
 ### Service anlegen
 
 Nach dem Login in das Fastly Dashboard wird in der linken Seitenleiste der Punkt  
-**Compute & CDN → CDN** ausgewählt.
+**CDN → CDN Services** ausgewählt.
 
 Auf der Übersichtsseite werden alle vorhandenen Services angezeigt.
 
@@ -39,7 +39,8 @@ auf die später verwendete Domain.
 Im nächsten Schritt müssen die Domains definiert werden, unter denen die Inhalte
 über das CDN erreichbar sind.
 
-Jeder Studierende erhält eine eigene Domain von Fastly.  
+Jeder Studierende erhält eine eigene Domain von Fastly. 
+
 Diese Domain wird automatisch von Fastly bereitgestellt und besitzt die Form:
 
 <service-name>.global.ssl.fastly.net
