@@ -43,7 +43,7 @@ Jeder Studierende erhält eine eigene Domain von Fastly.
 
 Diese Domain wird automatisch von Fastly bereitgestellt und besitzt die Form:
 
-servicename.global.ssl.fastly.net
+**servicename.global.ssl.fastly.net**
 
 
 **Diesen Namen erhalten Sie aus der bereitgestellten Mail.**
