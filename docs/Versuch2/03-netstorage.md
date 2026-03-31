@@ -24,7 +24,7 @@ Auf den AWS-S3-Origin kann auf verschiedenen Wegen zugegriffen werden, unter and
 
 Für diesen Versuch wird der Zugriff über die AWS Management Console genutzt, da diese eine einfache und übersichtliche Kontrolle der im Bucket gespeicherten Dateien ermöglicht.
 
-Zur Übersicht der Buckets wechseln Sie in der AWS-Konsole zum Diens
+Zur Übersicht der Buckets wechseln Sie in der AWS-Konsole zum Dienst : **s3-buckets**
 
 ![Buckets](../assets/buckets.jpg)
 
