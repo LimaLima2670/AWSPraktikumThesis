@@ -79,7 +79,7 @@ Gehen Sie dabei insbesondere auf folgende Punkte ein:
 
 <ul>
 <li>Welche Manifest-Dateien existieren?</li>
-<li>Welche Funktion die einzelnen Manifeste innerhalb des HLS-Streams übernehmen?</li>
+<li>Welche Funktion übernehmen die einzelnen Manifeste innerhalb des HLS-Streams?</li>
 </ul>
 
 </div>
